@@ -26,6 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+~~~
 #include <stdio.h>
 
 int main() {
@@ -40,6 +41,7 @@ int main() {
 
     return 0;
 }
+~~~
 # Output:
 <img width="501" height="417" alt="530557077-6fc9ab3a-b8a0-434b-b452-711e74f7328e" src="https://github.com/user-attachments/assets/e4687b4d-40a1-4a70-a65d-b26c1bea1c63" />
 
@@ -73,6 +75,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+~~~
 #include <stdio.h>
 #define MAX 100
 int main() {
@@ -81,6 +84,7 @@ int main() {
     printf("Constant variable MIN = %d\n", MIN);
     return 0;
 }
+~~~
 # Output:
 <img width="535" height="324" alt="530557352-570a3d77-e98a-4efd-bb55-d5d8b8e1883b" src="https://github.com/user-attachments/assets/a2d1c182-7905-4729-af46-f979957a7a49" />
 
@@ -107,6 +111,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+~~~
 #include <stdio.h>
 int main() {
     int count = 10;           
@@ -119,6 +124,7 @@ int main() {
     printf("Character value: %c\n", grade);
     return 0;
 }
+~~~
 # Output:
 <img width="466" height="365" alt="530557433-b4bbfca5-5041-4a08-9b78-05b4c7901d05" src="https://github.com/user-attachments/assets/8233ddc7-c8cd-44e0-8930-35106ceb7760" />
 
@@ -160,6 +166,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+~~~
 #include <stdio.h>
 
 int main() {
@@ -170,7 +177,7 @@ int main() {
     printf("Addition (a + b): %d\n", a + b);
     printf("Subtraction (a - b): %d\n", a - b);
     printf("Multiplication (a * b): %d\n", a * b);
-~~
+
     if (b != 0) {
         printf("Division (a / b): %d\n", a / b);
         printf("Remainder (a %% b): %d\n", a % b);
@@ -187,7 +194,7 @@ int main() {
 
     return 0;
 }
-~~
+~~~
 # Output:
 <img width="348" height="488" alt="530557577-eba8edd5-5392-459e-9512-2e2e2a8dd72a" src="https://github.com/user-attachments/assets/d8d580cf-f7ee-4240-a333-de5efe0426a6" />
 
@@ -235,6 +242,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+~~~
 #include <stdio.h>
 int main() {
     char ch;
@@ -250,6 +258,7 @@ int main() {
         printf("The character is a Special Symbol.\n");
     return 0;
 }
+~~~
 # Output:
 <img width="544" height="365" alt="530557688-07599991-163c-4924-afe2-a50761e30f68" src="https://github.com/user-attachments/assets/8372ab75-77d3-474e-9758-e959e8f91aab" />
 
